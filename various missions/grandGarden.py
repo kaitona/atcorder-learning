@@ -3,6 +3,9 @@ import math
 
 def solve(count, flowers):
     wateringCount = 0
+    flowers = [0] + flowers + [0]
+    
+        
     
 
 def flowersNeedHeight(flowers):
