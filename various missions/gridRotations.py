@@ -2,7 +2,8 @@ import sys
 def solve(height, width, grid, opeCount, ope):
     for i in range(opeCount):
         grid = solveHelper(height, width, grid, ope[i])
-    print(grid)
+    for row in grid:
+        print("".join(row))
         
     
 
