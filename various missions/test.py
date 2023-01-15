@@ -1,0 +1,2 @@
+s = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+print(s.find("B"))
